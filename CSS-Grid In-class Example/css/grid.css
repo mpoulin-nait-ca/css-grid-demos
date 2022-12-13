@@ -1,0 +1,65 @@
+html { 
+	font-size: 16px; font-size: 62.5%;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit; 
+}
+
+/* --- Typographical Scales --- */
+
+p {font-weight: 700;
+	padding: 2%;
+}
+
+body{
+	width: 940px;
+	margin:0 auto;
+	font-size: 1.6rem;
+	font-family: arial;
+}
+
+main {display: grid;
+		height: 600px;
+		grid-gap: 2%;
+		grid-template-columns: 33% 33% 33%;
+		grid-template-rows: 33% 33% 33%; }
+
+
+.one{ grid-column-start: 1;
+		grid-column-end: 3;
+	background-color: #578fea;
+	}
+
+.two{
+	background-color: #3bf4ef;
+	}
+
+.three{ grid-row: 2/4;
+	background-color: #578fea;
+	}
+
+.four{grid-column: 2/4;
+	background-color: #f49806;
+	
+}
+
+.five{
+	background-color: #e886f2;
+	
+}
+
+.six{
+	background-color: #98d309; 
+	
+}
+
+
+/* --- Navigational Behaviours --- */
+nav a {text-decoration: none;}
+
+a:link {color: #333;}
+a:active {color: #333;}
+a:hover {color: #999;}
+a:visited {color: #999;}

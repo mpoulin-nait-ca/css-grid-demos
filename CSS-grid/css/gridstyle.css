@@ -1,0 +1,158 @@
+html { font-size: 16px; font-size: 62.5%;
+		box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit; }
+
+body{
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+p {
+font-size: 1.6rem;
+}
+
+
+main{
+	height: 1000px;
+	display: grid;
+	grid-column: 8% 8% 8% 8% 8% 8% 8% 8% 8% 8% 8% 8%;
+	grid-row: 75px 75px 75px 75px 75px 75px 75px 75px 75px;
+	grid-gap: 20px;
+}
+
+.twelve-col {
+	grid-column-start: 1;
+	grid-column-end: 13;
+	background-color: #3bf4ef;
+	
+}
+
+.one-col {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	background-color: #578fea;
+}
+
+.eleven-col {
+	grid-column-start: 2;
+	grid-column-end: 13;
+	background-color: #f49806;
+}
+
+.seven-col{
+	grid-column-start: 1;
+	grid-column-end: 8;
+	background-color: #98d309;
+}
+
+
+.five-col {
+	grid-column-start: 8;
+	grid-column-end: 13;
+	background-color: #e886f2;
+	
+}
+
+.three-col{
+	grid-column-start: 1;
+	grid-column-end: 4;
+	background-color: #578fea;
+}
+
+.six-col{
+	grid-column-start: 4;
+	grid-column-end: 10;
+	background-color: #98d309;
+}
+
+.three-col2{
+	grid-column-start: 10;
+	grid-column-end: 13;
+	background-color: #578fea;
+}
+
+.four-col{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	background-color: #f49806;
+}
+
+.four-col2{
+	grid-column-start: 5;
+	grid-column-end: 9;
+	background-color: #f49806;
+}
+
+.four-col3{
+	grid-column-start: 9;
+	grid-column-end: 13;
+	background-color: #f49806;
+}
+
+.five-col2 {
+	grid-column-start: 1;
+	grid-column-end: 6;
+	background-color: #e886f2;
+	
+}
+
+.two-col{
+	grid-column-start: 6;
+	grid-column-end: 8;
+	background-color: #3bf4ef;
+}
+
+.five-col3 {
+	grid-column-start: 8;
+	grid-column-end: 13;
+	background-color: #e886f2;
+	
+}
+
+.four-col4{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	background-color: #f49806;
+}
+
+.eigth-col{
+	grid-column-start: 5;
+	grid-column-end: 13;
+	background-color: #f49806;
+}
+
+.nine-col{
+	grid-column-start: 1;
+	grid-column-end: 10;
+	background-color: #578fea;
+}
+
+.three-col3{
+	grid-column-start: 10;
+	grid-column-end: 13;
+	background-color: #578fea;
+}
+
+.two-col2{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	background-color: #3bf4ef;
+}
+
+.ten-col{
+	grid-column-start: 3;
+	grid-column-end: 13;
+	background-color: #0dd9d2;
+}
+
+/* --- Typographical Scales --- */
+
+/* --- Navigational Behaviours --- */
+nav a {text-decoration: none;}
+
+a:link {color: #333;}
+a:active {color: #333;}
+a:hover {color: #999;}
+a:visited {color: #999;}
