@@ -1,0 +1,27 @@
+article {
+  background-color: grey;
+  display: grid;
+  grid-template-columns: auto auto;
+  /* repeat (4, 25%) */
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-gap: 20px;
+
+  grid-template-rows: auto 200px 300px;
+
+  max-width: 800px;
+  margin: 0 auto;
+  justify-content: space-around;
+  min-height: 100vh;
+
+  align-content: center;
+}
+div {
+  background-color: pink;
+  padding: 10px;
+}
+
+div:first-of-type {
+  grid-column-start: 1;
+  grid-column-end:3;
+}
